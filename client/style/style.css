@@ -1,0 +1,51 @@
+body {
+	background: #eee;	
+}
+.form-submit {
+	margin-top: 10px
+}
+.wrapper {	
+	margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.form-sticky {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  background-color: #fff;
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 5px;  
+}
+
+.sticky-box {
+  max-width: 230px;
+  padding: 15px 35px 45px;
+  background-color: #fff;
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 5px;
+	display: inline-block;
+	margin-right: 15px;
+	margin-bottom: 15px;
+}
+.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+}
+
+input[type="text"] {
+	border-bottom-left-radius: 10;
+	border-bottom-right-radius: 10;
+}
+.sticky-buttons {
+	margin-top: 30px;
+}
+
+.done {
+	background-color: #90EE90;
+}

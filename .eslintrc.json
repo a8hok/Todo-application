@@ -1,0 +1,12 @@
+{
+  "extends": "airbnb-base",
+  "root": true,
+  "rules": {
+    "import/no-extraneous-dependencies": [
+      "error",
+      { "devDependencies": true
+      }
+    ]
+  }
+}
+

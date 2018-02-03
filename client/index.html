@@ -1,0 +1,30 @@
+<!-- HTML5 -->
+<!doctype html>
+<html data-ng-app="sticky">
+  <!-- Set character encoding for the document -->
+  <meta charset="utf-8">
+  <!-- Viewport for responsive web design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <head>
+    <!-- Document Title as per the standard only 55 character-->
+    <title>Sticky</title>
+
+    <!-- CSS goes here -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    
+    <!-- Script goes here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
+    <script src="sticky-controller.js"></script>
+    <script src="sticky-service.js"></script>
+    <script src="sticky-directive.js"></script>
+    <script src="core.js"></script>
+  </head>
+
+  <body data-ng-controller="mainController">
+    <sticky-note></sticky-note>
+  </body>
+  
+</html>
